@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pop parallax</title>
+	<link rel="stylesheet" href="../pop-parallax.css">
+	<style>
+		body{
+			font-family:sans-serif;
+		}
+		.container{
+			overflow-x:hidden;
+			overflow-y:auto;
+			margin:50px auto;
+			max-width:500px;
+			text-align:center;
+		}
+		.test{
+			margin:50px 0;
+			padding:300px 50px;
+			background:gray;
+			color:white;
+		}
+		blockquote{
+			display:block;
+			margin:15px 0;
+			padding: 20px;
+			background:#fafafa;
+			color:black;
+			border-left:5px #1abc9c solid;
+			font-style: italic;
+		}
+		.limit{
+			background: transparent;
+			width:100%;
+			position:fixed;
+			top:80%;
+			left:0;
+			border-top:1px red dotted;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		
+		<h1>POP Parallax examples</h1>
+		<small>by ZeZeN aka <a href="http://benavern.github.io">benavern</a></small>
+
+		<div class="test">
+			<img src="http://placekitten.com/g/400/200">
+			<blockquote>
+				nothing special here. Scroll down...
+			</blockquote>
+		</div>
+
+		<div class="test">
+			<img src="http://placekitten.com/g/300/301" class="pop">
+			<blockquote class="pop">
+				class="pop"
+			</blockquote>
+		</div>
+
+		<div class="test">
+			<img src="http://placekitten.com/g/300/400" class="pop pop-left">
+			<blockquote class="pop pop-left">
+				class="pop pop-left"
+			</blockquote>
+		</div>
+
+		<div class="test">
+			<img src="http://placekitten.com/g/200/201" class="pop pop-right">
+			<blockquote class="pop pop-right">
+				class="pop pop-right"
+			</blockquote>
+		</div>
+
+		<div class="test">
+			<img src="http://placekitten.com/g/300/500" class="pop pop-top">
+			<blockquote class="pop pop-top">
+				class="pop pop-top"
+			</blockquote>
+		</div>
+
+		<a href="#">Scroll to top = reset</a>
+
+		<div class="limit"></div>
+
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="../pop-parallax.js"></script>
+</body>
+</html>
