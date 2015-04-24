@@ -1,6 +1,8 @@
 # Pop Parallax 
 
-This is a cool peace of code that allows you to add stylish parallax effect on scroll on your website just by adding classes.
+This is a cool peace of code that allows you to add stylish parallax effects on your website just by adding classes.
+
+Images, texts, divs, [what you want] can jump on the screen on scroll. When you scroll back to the top of the webpage, everything resets and no need to refresh to see the magic again. :)
 
 ## How To
 * Add the 2 files in your website directory and call them (works with jquery!!)
