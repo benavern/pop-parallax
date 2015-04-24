@@ -6,9 +6,9 @@ This is a cool peace of code that allows you to add stylish parallax effect on s
 * Add the 2 files in your website directory and call them (works with jquery!!)
 
 ```html
-  <link rel="stylesheet" href="../pop-parallax.css">
+  <link rel="stylesheet" href="pop-parallax.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="../pop-parallax.js"></script>
+  <script src="pop-parallax.js"></script>
 ```
 
 * Use classes on each element you want to appear with the parallax effect:
