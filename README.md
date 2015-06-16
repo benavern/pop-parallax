@@ -26,7 +26,7 @@ Images, texts, divs, [what you want] can jump on the screen on scroll. When you 
 * element with `class="pop pop-top"` will come from top 
 
 ## See it in action
-* [Demo](http://benavern.github.io/pop-parallax)
+* [Demo](http://labo.caradeuc.info/pop-parallax)
 
 ![gif demo](/animation_demo.gif)
 
