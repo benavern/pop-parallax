@@ -35,3 +35,7 @@ This code is inspired from one of the super cool tutorials of [DevTips](https://
 
 You can contribute, fork, issue, ... like you want.
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/benavern/pop-parallax/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
