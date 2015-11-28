@@ -1,4 +1,4 @@
-# Pop Parallax 
+# Pop Parallax
 
 This is a cool peace of code that allows you to add stylish parallax effects on your website just by adding classes.
 
@@ -21,12 +21,12 @@ Images, texts, divs, [what you want] can jump on the screen on scroll. When you 
 #### Choose from where it comes
 
 * element with `class="pop"` will come from bottom
-* element with `class="pop pop-left"` will come from left 
-* element with `class="pop pop-right"` will come from right 
-* element with `class="pop pop-top"` will come from top 
+* element with `class="pop pop-left"` will come from left
+* element with `class="pop pop-right"` will come from right
+* element with `class="pop pop-top"` will come from top
 
 ## See it in action
-* [Demo](http://labo.caradeuc.info/pop-parallax)
+#### [Demo](http://labo.caradeuc.info/pop-parallax)
 
 ![gif demo](/animation_demo.gif)
 
@@ -34,8 +34,3 @@ Images, texts, divs, [what you want] can jump on the screen on scroll. When you 
 This code is inspired from one of the super cool tutorials of [DevTips](https://www.youtube.com/watch?v=-iOdDz2LnEk)
 
 You can contribute, fork, issue, ... like you want.
-
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/benavern/pop-parallax/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
