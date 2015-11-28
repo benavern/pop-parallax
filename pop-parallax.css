@@ -5,33 +5,33 @@
 
 /*before*/
 .pop{
-	opacity    : 0;
-	-webkit-transform  : translate(0px, 100px);
-	    -ms-transform  : translate(0px, 100px);
-	        transform  : translate(0px, 100px);
-	-webkit-transition : all 0.5s;
-	        transition : all 0.5s;
+    opacity    : 0;
+    -webkit-transform  : translate(0px, 100px);
+        -ms-transform  : translate(0px, 100px);
+            transform  : translate(0px, 100px);
+    -webkit-transition : all 0.5s;
+            transition : all 0.5s;
 }
 .pop-left{
-	-webkit-transform  : translate(-100px, 0px);
-	    -ms-transform  : translate(-100px, 0px);
-	        transform  : translate(-100px, 0px);
+    -webkit-transform  : translate(-100px, 0px);
+        -ms-transform  : translate(-100px, 0px);
+            transform  : translate(-100px, 0px);
 }
 .pop-right{
-	-webkit-transform  : translate(100px, 0px);
-	    -ms-transform  : translate(100px, 0px);
-	        transform  : translate(100px, 0px);
+    -webkit-transform  : translate(100px, 0px);
+        -ms-transform  : translate(100px, 0px);
+            transform  : translate(100px, 0px);
 }
 .pop-top{
-	-webkit-transform  : translate(0px, -100px);
-	    -ms-transform  : translate(0px, -100px);
-	        transform  : translate(0px, -100px);
+    -webkit-transform  : translate(0px, -100px);
+        -ms-transform  : translate(0px, -100px);
+            transform  : translate(0px, -100px);
 }
 
 /*after*/
 .pop.popped{
-	opacity    : 1;
-	-webkit-transform  : translate(0px, 0px);
-	    -ms-transform  : translate(0px, 0px);
-	        transform  : translate(0px, 0px);
+    opacity    : 1;
+    -webkit-transform  : translate(0px, 0px);
+        -ms-transform  : translate(0px, 0px);
+            transform  : translate(0px, 0px);
 }
