@@ -34,3 +34,7 @@ Images, texts, divs, [what you want] can jump on the screen on scroll. When you 
 This code is inspired from one of the super cool tutorials of [DevTips](https://www.youtube.com/watch?v=-iOdDz2LnEk)
 
 You can contribute, fork, issue, ... like you want.
+
+## License
+
+[MIT](http://benavern.github.io/MIT#name=Benjamin Caradeuc&link=http://caradeuc.info/)
